@@ -1,1 +1,87 @@
 @charset "utf 8" ;
+/* CSS Document */
+.container{
+	width:1020px;
+	margin:0 auto;
+	background-color: #C9DDF3;
+}
+
+header{
+	width:100%;
+	text-align: center;
+}
+
+.flex-container{
+	display:flex;
+	background-color:#F1BABB;
+	flex-direction: row;
+	align-items: stretch;
+	height:150px;
+}
+
+.flex-container div{
+	background-color: #f1f1f1;
+	 flex-grow:4;
+}
+
+.flex-container .flex-nav{
+	flex-grow:1;
+	flex-direction: column;
+}
+
+footer{
+	width:100%;
+	text-align: center;
+}
+
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+	}
+	header{background-color: burlywood;}
+
+}
+* {
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: paleturquoise;
+}
+.flex-container > div {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.stack > div {
+    flex-direction: column;
+    padding: 20px;
+}
+#container {
+    width: 800px;
+    margin: 0 auto;
+}
+.section_L {
+    flex-grow: 3;
+}
+.section_R {
+    flex-grow: 2;
+}
+.flex-responsive {
+    flex: 30%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 799px) {
+#container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: bisque;
+}
+.flex-responsive {
+    flex: 100%;
+}
+}
