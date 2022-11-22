@@ -13,7 +13,7 @@ header{
 
 .flex-container{
 	display:flex;
-	background-color:#F1BABB;
+	background-color:#FFFFFF;
 	flex-direction: row;
 	align-items: stretch;
 	height:150px;
@@ -48,7 +48,7 @@ footer{
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: paleturquoise;
+    
 }
 .flex-container > div {
     background-color: #fff;
