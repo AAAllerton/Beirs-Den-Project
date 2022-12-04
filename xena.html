@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS Flexbox</title>
+
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: deeppink;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+	
+</head>
+
+<body>
+<header>
+	<div class="container"><h2>Xena's Page</h2>
+<p>Welcome to your new best friend</p></div>
+</header>
+
+<div class="topnav">
+  <a href="index.html#top">Rescues</a>
+  <a href="index.html#cametobe">How We Came To be</a>
+  <a href="index.html#contact">Contact Us/Info</a>
+</div>
+	
+	<div class="flex-container">
+  <div><a href="xena.html" alt="picture of xena"><img src="images/xenapic.jpg" alt="picture of xena" width="250px"></a></div>
+
+	</div>
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+	<link href="main.css" rel="stylesheet" type="text/css">
+</html>

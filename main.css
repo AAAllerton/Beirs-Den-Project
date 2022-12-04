@@ -3,7 +3,7 @@
 .container{
 	width:1020px;
 	margin:0 auto;
-	background-color: #C9DDF3;
+	background-color: white;
 }
 
 header{
@@ -39,7 +39,7 @@ footer{
   .flex-container {
     flex-direction: column;
 	}
-	header{background-color: burlywood;}
+	header{background-color: white;}
 
 }
 * {
@@ -79,9 +79,10 @@ footer{
 #container {
     width: 90%;
     margin: 0 auto;
-    background-color: bisque;
+    background-color: white;
 }
 .flex-responsive {
     flex: 100%;
 }
 }
+h6{font-size:13px}
